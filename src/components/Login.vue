@@ -4,7 +4,7 @@
       <h2 class="text-2xl font-bold text-center mb-6 text-blue-600">
         Login to Your Account
       </h2>
-      <form class="space-y-4 mt-6" @submit.prevent="handleLogin">
+      <form class="space-y-4 mt-" @submit.prevent="handleLogin">
         <!-- Email -->
         <div class="mb-4 text-left">
           <label class="block text-sm font-medium text-gray-600 mb-1">
