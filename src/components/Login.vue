@@ -6,7 +6,7 @@
       </h2>
       <form class="space-y-4 mt-" @submit.prevent="handleLogin">
         <!-- Email -->
-        <div class="mb-4 text-left">
+        <div class="mb-4 text-left mt-8">
           <label class="block text-sm font-medium text-gray-600 mb-1">
             Email
           </label>
@@ -19,7 +19,7 @@
         </div>
 
         <!-- Password -->
-        <div class="mb-6 text-left">
+        <div class="mb-6 text-left mt-8">
           <label class="block text-sm font-medium text-gray-600 mb-1">
             Password
           </label>
@@ -34,7 +34,7 @@
         <!-- Button -->
         <button
           type="submit"
-          class="w-full bg-blue-500 text-white py-2 rounded-lg hover:bg-blue-600 transition duration-200"
+          class="mt-8 w-full bg-blue-500 text-white py-2 rounded-lg hover:bg-blue-600 transition duration-200"
         >
           Login
         </button>
