@@ -56,7 +56,7 @@ export default {
   methods: {
     handleLogin() {
       if (!this.email || !this.password) {
-        alert("Please fill all fields and add");
+        alert("Please fill all fields");
         this.istrue = true;
         return;
       }
