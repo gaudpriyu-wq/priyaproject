@@ -1,3 +1,3 @@
 # priyaproject
-Akshay Kaingade is Good<br>
+Akshay Kaingade <br>
 auther = Priyanka Gaud
