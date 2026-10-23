@@ -9,7 +9,7 @@
         </div>
         <button
           @click="handleLogout"
-          class="px-8 py-3 bg-amber-500 hover:bg-amber-600 text-white font-semibold rounded-lg transition duration-300 transform hover:scale-105 shadow-lg"
+          class="btn btn-primary btn-lg mb-3"
         >
           Logout
         </button>

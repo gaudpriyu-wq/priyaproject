@@ -1,6 +1,6 @@
 <template>
   <div class="login-page d-flex align-items-center justify-content-center min-vh-100">
-    <div class="login-card card shadow-lg p-5" style="width: 100%; max-width: 400px;">
+    <div class="login-card card shadow-lg p-5" style="width: 100%; max-width: 500px;">
       <div class="card-body">
         <h2 class="card-title text-center mb-4 text-primary">
           Login to Your Account
@@ -38,21 +38,26 @@
           </div>
 
           <!-- Remember Me Checkbox -->
-          <div class="mb-3 form-check">
-            <input
-              type="checkbox"
-              class="form-check-input"
-              id="rememberCheck"
-            />
-            <label class="form-check-label" for="rememberCheck">
-              Remember me
-            </label>
+          <div class="mb-3 row align-items-center">
+            <div class="col-4"></div>
+            <div class="col-8">
+              <div class="form-check">
+                <input
+                  type="checkbox"
+                  class="form-check-input"
+                  id="rememberCheck"
+                />
+                <label class="form-check-label" for="rememberCheck">
+                  Remember me
+                </label>
+              </div>
+            </div>
           </div>
 
           <!-- Submit Button -->
           <button
             type="submit"
-            class="btn btn-success w-100 btn-lg mb-3"
+            class="btn btn-primary w-100 btn-lg mb-3"
           >
             Login
           </button>
@@ -61,7 +66,7 @@
           <div class="text-center">
             <small>
               <a href="#" class="text-decoration-none">Forgot Password?</a> |
-              <a href="#" class="text-decoration-none">Sign Up</a>
+              <router-link to="/register" class="text-decoration-none">Sign Up</router-link>
             </small>
           </div>
         </form>
